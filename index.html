@@ -31,6 +31,8 @@
     .pub.has-thumb{display:grid;grid-template-columns:260px minmax(0,1fr);gap:24px;align-items:start}.thumb{width:260px;height:146px;background:#fff;border:1px solid var(--line);border-radius:6px;padding:6px;display:flex;align-items:center;justify-content:center}.thumb img{display:block;max-width:100%;max-height:100%;width:auto;height:auto}.pub-body>:first-child{margin-top:0}.pub-body h3{margin-top:7px}
     @media(max-width:760px){.pub.has-thumb{grid-template-columns:1fr;gap:12px}.thumb{width:100%;max-width:340px;height:190px}}
     @media print{.pub.has-thumb{display:block}.thumb{display:none}}
+    /* Section titles sit above the content so paper titles fit on one line. */
+    @media screen and (min-width:761px){.wrap{max-width:1040px}.section{grid-template-columns:minmax(0,1fr);gap:14px}}
   </style>
 </head>
 <body>
